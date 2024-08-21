@@ -188,4 +188,15 @@ if(fullscreen_status):
      Arguments: 
     
      * val -> the value of what ratee it should be
-     
+
+* `play_specific_file`
+
+   Play specific file. Example: file:///home/user/video.mp4
+
+   Arguments:
+
+    * video_path -> Path of the video file
+ 
+* `repeat`
+   Set current track in playlist to repeat one mode.
+
