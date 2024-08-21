@@ -179,6 +179,14 @@ class HttpVLC:
         """Send stop command."""
         return self.parse_data(command="pl_stop")
 
+    def play_specific_video(self, video_path: str):
+        """Play specific video from file. Ex: file:///home/user/video/video.mp4"""
+	    return self.parse_data(command=f"in_play&input={video_path}")
+
+    def repeat(self):
+        """Set current video in playlist to repeat one mode"""
+	    return self.parse_data(command=f"pl_repeat")
+
     def previous_track(self):
         """Play previous media in queue """
         return self.parse_data(command="pl_previous")
