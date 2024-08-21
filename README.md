@@ -198,5 +198,6 @@ if(fullscreen_status):
     * video_path -> Path of the video file
  
 * `repeat`
+  
    Set current track in playlist to repeat one mode.
-
+   
