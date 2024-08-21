@@ -1,10 +1,6 @@
 # python-vlc-http
 Pip module for sending http requests to a VLC Server
 
-# Installation
-
-`pip install python-vlc-http`
-
 # How to use
 
 ```python
